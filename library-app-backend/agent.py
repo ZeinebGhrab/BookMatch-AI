@@ -32,7 +32,7 @@ class Agent:
         books = []
         with open(BOOKS_CSV, 'r') as f:
             reader = csv.reader(f)
-            next(reader)  # Ignorer la première ligne
+            next(reader)  
             for row in reader:
                 books.append({'id': row[0], 'title': row[1], 'author': row[2], 'genre': row[3]})
         return books
@@ -42,7 +42,7 @@ class Agent:
         users = {}
         with open(USERS_CSV, 'r') as f:
             reader = csv.reader(f)
-            next(reader)  # Ignorer la première ligne
+            next(reader)  
             for row in reader:
                 username = row[0]
                 book_ids = row[1]
@@ -126,5 +126,5 @@ class Agent:
 
         return {'error': 'Action inconnue'}
 
-# Créer une instance de l'agent
+
 agent = Agent()
