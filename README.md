@@ -37,3 +37,29 @@ The agent follows a simple yet effective **perception–reaction** logic:
 - **Backend**: Python, Flask  
 - **Data Storage**: CSV file handling  
 - **AI Logic**: Reactive agent (perception + reaction)
+  
+---
+
+## 🚀 How to Run BookMatch
+
+1. Clone the repository
+```bash
+   git clone https://github.com/ZeinebGhrab/BookMatch-AI
+   cd bookmatch
+```
+
+2. Start the Backend (Flask + AI Agent)
+
+```bash
+   cd library-app-backend
+   python agent.py
+```
+
+3. Start the Frontend (React App)
+
+```bash
+   cd library-app
+   npm install
+   npm run dev
+```
+📌 L'application sera disponible sur http://localhost:5173/ par défaut.
