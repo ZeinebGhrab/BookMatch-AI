@@ -62,4 +62,5 @@ The agent follows a simple yet effective **perception–reaction** logic:
    npm install
    npm run dev
 ```
-📌 L'application sera disponible sur http://localhost:5173/ par défaut.
+📌 The application will be available at http://localhost:5173/ by default.
+
